@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arábia Saudita</title>
+    <link rel="stylesheet" href="utils/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"/>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Globo animado" class="logo-img">
+        </div>
+        <nav class="menu">
+            <a href="index.html" class="ativo">Início</a>
+            <a href="curiosidades.html">Cultura & Turismo</a>
+            <a href="sobre.html">Equipe</a>
+        </nav>
+    </aside>
+
+    <main class="conteudo">
+        <header class="cabecalho-pagina">
+            <h1>Arábia Saudita</h1>
+            <p>Falcões Verdes.</p>
+        </header>
+
+        <section class="texto-intro">
+            <p>A Arábia Saudita foi o país escolhido para este projeto. O objetivo do site é apresentar a seleção dos Falcões Verdes e destacar como o país está investindo pesado no futebol hoje em dia, chamando a atenção do mundo todo. Além da parte esportiva, as outras páginas trazem um resumo sobre a cultura saudita, mostrando os principais pontos turísticos, a gastronomia típica e algumas curiosidades do país.</p>
+        </section>
+
+        <!--Carrossel-->
+        <section class="carrossel-container">
+            <div class="carrossel">
+                <img src="https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2026/06/Arabia-Saudita-perfilada-em-jogo-das-Eliminatorias-da-Asia-para-a-Copa-do-Mundo-de-2026-aspect-ratio-512-320-1.jpg" class="slide ativo">
+                <img src="https://placar.com.br/_next/image/?url=https%3A%2F%2Fplacar.com%2Fwp-content%2Fuploads%2F2026%2F06%2F628bcbcdbc71f6e5a28d886388a7c10d1f9d5044w.jpg&w=1920&q=75" class="slide">
+                <img src="https://s2-oglobo.glbimg.com/Rc-k5MXY-RO0no6OJiQMFheRiag=/0x0:5128x3419/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/1/d/AjpA2DRiKVWNNI2T8ieQ/101263147-saudi-arabias-supporters-cheer-before-the-qatar-2022-world-cup-group-c-football-match-bet.jpg" class="slide">
+            </div>
+            <button class="btn-seta anterior" onclick="mudarSlide(-1)">&#10094;</button>
+            <button class="btn-seta proximo" onclick="mudarSlide(1)">&#10095;</button>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Arábia Saudita</p>
+        </footer>
+    </main>
+
+    <script src="utils/script.js"></script>
+</body>
+</html>
